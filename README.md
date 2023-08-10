@@ -1,5 +1,5 @@
 # heroes-Super control de asistencia.
-![alt text] (https://github.com/mafev54/heros/blob/main/heroes-control%20de%20asistencia.jpeg?raw=true)
+![alt text (https://github.com/mafev54/heros/blob/main/heroes-control%20de%20asistencia.jpeg?raw=true)] 
 ## Sistema de Control de Asistencia de Superhéroes
 ¡Bienvenido al Sistema de Control de Asistencia de Superhéroes! Este sistema está diseñado para gestionar y monitorear la asistencia de superhéroes a sus tareas y misiones. Utiliza las tecnologías Angular, Node.js y Express para proporcionar una experiencia de usuario fluida y una administración eficiente de la asistencia.
 
