@@ -1,0 +1,23 @@
+<p>hero-search works!</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="search-component">
+        <label for="search-box">Hero Search</label>
+        <input #searchBox id="search-box" (input)="search(searchBox.value)" />
+      
+        <ul class="search-result">
+          <li *ngFor="let hero of heroes$ | async" >
+            <a routerLink="/detail/{{hero.id}}">
+              {{hero.name}}
+            </a>
+          </li>
+        </ul>
+      </div>
+</body>
+</html>

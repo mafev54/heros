@@ -1,0 +1,19 @@
+<p>messages works!</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div *ngIf="messageService.messages.length">
+
+        <h2>Messages</h2>
+        <button type="button" class="clear"
+                (click)="messageService.clear()">Clear messages</button>
+        <div *ngFor='let message of messageService.messages'> {{message}} </div>
+      
+      </div>
+</body>
+</html>
