@@ -8,7 +8,9 @@ Informes de Asistencia: El sistema genera informes detallados sobre la asistenci
 
 ## Tecnologías Utilizadas
 Angular: El frontend del sistema está construido con Angular, lo que proporciona una interfaz de usuario moderna e interactiva para los usuarios.
+
 Node.js: El backend del sistema se basa en Node.js, lo que permite un manejo eficiente de las solicitudes y la lógica de negocio.
+
 Express: Se utiliza el framework Express para construir APIs RESTful que conectan el frontend y el backend, facilitando la comunicación y la transferencia de datos.
 
 ## Inicio Rápido
